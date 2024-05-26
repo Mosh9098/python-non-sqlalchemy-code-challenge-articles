@@ -4,7 +4,6 @@ class Author:
             self.__name = name
         else:
             raise ValueError("Name must be a non-empty string.")
-    
-    @property
+
     def name(self):
         return self.__name

@@ -7,6 +7,5 @@ class Article:
             raise ValueError("Title must be a string between 5 and 50 characters.")
         self.__title = title
 
-    @property
     def title(self):
         return self.__title
